@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration web</title>
+</head>
+<body>
+    <form>
+    <h1>UNIVERSITY REGISTRATION  FORM</h1>   
+    <p>Please fill out the form below to register</p>
+    <hr>
+    <form>
+    <h2>Personal Details</h2>
+    <label for="First Name">First Name :</label>
+    <input type="text" name="First Name" id="First Name" placeholder="eg:Soumyajit">
+    <br><br>
+    <label for="Second Name">Last Name :</label>
+    <input type="text" name="Second Name" id="Second Name" placeholder="eg:Bhowmik">
+    <br><br>
+      <label for="dob">date of birth :</label>
+    <input type="date" name="dob" id="dob" placeholder="day/month/year">
+    <br><br>
+    <label>Gender :</label>
+    <label for="Male">Male</label>
+    <input type="radio" name="Gender" id="Male" value="male">
+    <label for="Female">Female</label>
+    <input type="radio" name="Gender" id="Female" value="FeMale">
+    <label for="Other">Other</label>
+    <input type="radio" name="Gender" id="Other" value="Other">
+    <br><br>
+    <label >upload your photo :</label>
+    <input type="file" name="file" id="photo">
+    <br><br>
+    <hr>
+    <h2>Contact Information </h2>
+    <label for="email">Email address :</label>
+    <input type="email" name="email" id="email" placeholder="eg:ram@gmail.com">
+    <br><br>
+    <label for="phone number">Phone number :</label>
+    <input type="tel" name="phone number" id="phone number" placeholder="eg:+91 9***">
+    <br><br>
+    <label for="mailing address"> Mailing Address :</label>
+    <!--textarea will be inplace of input-->
+    <input name="mailing address" id="mailing address" placeholder="City name,state,Street name,ZIP code" >
+    <br><br>
+    <hr>
+    <h2>Academic Information</h2>
+    <label for="Choose a Course">Select Your Course :</label>
+    <select id="Choose a Course">
+    <option>B.tech(CSE)</option>
+    <option>CSE(AIML)</option>
+    <option>CE</option>
+    <option>CSE(IOT)</option>
+    <option>ECE</option>
+    <option>EE</option>
+    <option>ME</option>
+    <option>Diploma</option>
+    </select>
+    <br><br>
+    <label>Extra Curricular Interest :</label>
+      <br><br>
+    <label for="Sports">Sports</label>
+    <input type="radio" name="Extra Curricular Interests" id="Sports">
+      <br><br>
+    <label for="Music & arts">Music & arts</label>
+    <input type="radio" name="Extra Curricular Interests" id="Music & arts">
+      <br><br>
+    <label for="tech clubs">tech clubs</label>
+    <input type="radio" name="Extra Curricular Interests" id="tech clubs">
+      <br><br>
+    <label for="Voluentearing">Voluentearing</label>
+    <input type="radio" name="Extra Curricular Interests" id="Voluentearing">
+    <br><br>
+    <hr>
+      <br><br>
+      <h2>Create Your Account </h2>
+      <label for="password" >Create Your Password :</label>
+      <input type="password" name="user_password" id="password">
+      <br><br>
+      <label for="Security Question">Security Question :</label>
+      <input type="search" name="user_securityQuestion" id="user_security Question">
+      <br><br>
+      <label for="Security Answer">Security Answer :</label>
+      <input type="search" name="user_securityAnswer" id="user_security Answer">
+      <br><br>
+      <input type="radio" name="agree">
+        <label >I agree to the Terms and Conditions.</label>
+        <br><br>
+        <hr>
+        <input type="submit" value="submit">
+         <input type="reset" value="Clear Form">
+        </form>
+</body>
+</html>
